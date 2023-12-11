@@ -15,9 +15,11 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.Stroke
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.ondevop.composeui.ui.CustomRightClick
 import com.ondevop.composeui.ui.DrawText
 import com.ondevop.composeui.ui.MainScreen
 import com.ondevop.composeui.ui.theme.ComposeUiTheme
+import com.ondevop.composeui.ui.wieght_picker.WeightPicker
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +27,12 @@ class MainActivity : ComponentActivity() {
         setContent {
             ComposeUiTheme {
                   //  MainScreen()
-                  DrawText()
+                //  DrawText()
+                WeightPicker()
+                //MainScreen()
+//                CustomRightClick(
+//                    circleColor = Color.Green)
+
             }
         }
     }
