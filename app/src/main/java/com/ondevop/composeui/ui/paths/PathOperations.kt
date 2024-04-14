@@ -46,7 +46,7 @@ fun PathOperations(){
             color = Color.Green,
           //  style = Stroke(2.dp.toPx())
         )
-        val x = 800f
+        val x = 400f
         val y = 200f
         drawPath(
             path = Path().apply {
@@ -55,7 +55,7 @@ fun PathOperations(){
                 lineTo(x + 30f,y + 60f)
                 close()
             },
-            color = Color.Green,
+            color = Color.Cyan
             //  style = Stroke(2.dp.toPx())
         )
 
