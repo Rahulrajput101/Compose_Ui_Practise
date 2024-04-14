@@ -40,7 +40,7 @@ fun AnimationPathLine(){
 
     val path = Path().apply{
         moveTo(100f,100f)
-        quadraticBezierTo(100f,400f,400f,200f)
+        quadraticBezierTo(100f,400f,400f,100f)
     }
     val pos = FloatArray(2)
     val tan = FloatArray(2)

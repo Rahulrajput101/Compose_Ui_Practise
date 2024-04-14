@@ -15,9 +15,10 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun PathMainScreen(){
 
-    //CurvyShapes()
+   // CurvyShapes()
      //PathOperations()
-    AnimationPathLine()
+   // AnimationPathLine()
+    Transfromation()
 
 }
 
@@ -28,17 +29,17 @@ fun CurvyShapes(){
             moveTo(100f,100f)
             lineTo(100f,500f)
             lineTo(500f,500f)
-            // lineTo(500f,100f)
-            //quadraticBezierTo(800f,300f,500f,100f)
-            cubicTo(
-                800f,
-                500f,
-                800f,
-                100f,
-                500f,
-                100f
-            )
-            close()
+             lineTo(500f,100f)
+//            quadraticBezierTo(800f,300f,500f,100f)
+//            cubicTo(
+//                800f,
+//                500f,
+//                800f,
+//                100f,
+//                500f,
+//                100f
+//            )
+           close()
         }
         drawPath(
             path = path,
