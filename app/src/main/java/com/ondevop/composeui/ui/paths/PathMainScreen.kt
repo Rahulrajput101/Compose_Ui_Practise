@@ -18,7 +18,8 @@ fun PathMainScreen(){
    // CurvyShapes()
      //PathOperations()
    // AnimationPathLine()
-    Transfromation()
+    //Transfromation()
+    PathEffects()
 
 }
 
